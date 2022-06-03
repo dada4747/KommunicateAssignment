@@ -51,7 +51,7 @@ class ViewController: UIViewController {
     }
     
     func setupTextFields() {
-        let stackView = UIStackView(arrangedSubviews: [emailTextField, name, logInButton])
+        let stackView = UIStackView(arrangedSubviews: [ name, emailTextField, logInButton])
         stackView.axis = .vertical
         stackView.spacing = 10
         stackView.distribution = .fillEqually

@@ -23,7 +23,7 @@ class DashboardViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        userName = "sallen0400"
+        userName = "dada4747"
         navigationController?.navigationBar.isHidden = true
         navigationController?.isNavigationBarHidden = true
         navigationController?.navigationBar.backgroundColor = .white
@@ -153,9 +153,28 @@ extension DashboardViewController: UITableViewDataSource, UITableViewDelegate {
 }
 extension DashboardViewController: UISearchResultsUpdating, UISearchBarDelegate {
     func updateSearchResults(for searchController: UISearchController) {
+        let searchText      = searchController.searchBar.text!
+        if !searchText.isEmpty {
+            isSearching     = true
+            filteredFollowers.removeAll()
+            for item in followers {
+                if item.login.lowercased().contains(searchText.lowercased()) == true
+                {
+                    filteredFollowers.append(item)
+                }
+            }
+        }
+        else {
+            isSearching     = false
+            filteredFollowers.removeAll()
+            filteredFollowers   = followers
+        }
+        
+        
         guard let filter    = searchController.searchBar.text, !filter.isEmpty else { return }
         isSearching         = true
         filteredFollowers.removeAll()
+        
         for item in followers {
             if item.login.lowercased().contains(filter.lowercased()) == true
             {

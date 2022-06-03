@@ -44,10 +44,10 @@ class ProfileViewController: UIViewController {
        checkDetails()
     }
     func checkDetails() {
-        guard let username = UserDefaults.standard.value(forKey: "username") as? String else {
+        guard let username = UserDefaults.standard.value(forKey: "name") as? String else {
             return
         }
-        guard let useremail = UserDefaults.standard.value(forKey: "password") as? String else { return }
+        guard let useremail = UserDefaults.standard.value(forKey: "email") as? String else { return }
         print(username)
         print(useremail)
     }
@@ -91,7 +91,7 @@ class ProfileViewController: UIViewController {
     }
     func configureName(){
         view.addSubview(name)
-        name.text = UserDefaults.standard.value(forKey: "username") as? String
+        name.text = UserDefaults.standard.value(forKey: "name") as? String
         name.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             name.leftAnchor.constraint(equalTo: nameLabel.rightAnchor, constant: 20),
@@ -104,7 +104,7 @@ class ProfileViewController: UIViewController {
 
     func configureEmail(){
         view.addSubview(email)
-        email.text = UserDefaults.standard.value(forKey: "password") as? String
+        email.text = UserDefaults.standard.value(forKey: "email") as? String
         email.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             email.leftAnchor.constraint(equalTo: emailLabel.rightAnchor, constant: 20),
