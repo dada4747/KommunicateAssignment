@@ -9,23 +9,57 @@
 /* Begin PBXBuildFile section */
 		8488CA682844E0FB00D55442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488CA672844E0FB00D55442 /* AppDelegate.swift */; };
 		8488CA6A2844E0FB00D55442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488CA692844E0FB00D55442 /* SceneDelegate.swift */; };
-		8488CA6C2844E0FB00D55442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488CA6B2844E0FB00D55442 /* ViewController.swift */; };
+		8488CA6C2844E0FB00D55442 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488CA6B2844E0FB00D55442 /* LoginViewController.swift */; };
 		8488CA6F2844E0FB00D55442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488CA6D2844E0FB00D55442 /* Main.storyboard */; };
 		8488CA722844E0FB00D55442 /* KommunicateAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8488CA702844E0FB00D55442 /* KommunicateAssignment.xcdatamodeld */; };
 		8488CA742844E10000D55442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8488CA732844E10000D55442 /* Assets.xcassets */; };
 		8488CA772844E10000D55442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8488CA752844E10000D55442 /* LaunchScreen.storyboard */; };
+		8488CA7F2844E9DC00D55442 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488CA7E2844E9DC00D55442 /* AnimationViewController.swift */; };
+		8488CA8328450C9D00D55442 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488CA8228450C9D00D55442 /* DashboardViewController.swift */; };
+		8488CAAF2847C84800D55442 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488CAAE2847C84800D55442 /* NetworkManager.swift */; };
+		8488CAB12848AD3B00D55442 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488CAB02848AD3B00D55442 /* UserModel.swift */; };
+		84F939942848E98500AE749F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939932848E98500AE749F /* DetailsViewController.swift */; };
+		84F939962848F65900AE749F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939952848F65900AE749F /* ProfileViewController.swift */; };
+		84F9399928492ADB00AE749F /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9399828492ADB00AE749F /* FollowerCell.swift */; };
+		84F9399B28492AE100AE749F /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9399A28492AE100AE749F /* AvatarImageView.swift */; };
+		84F9399D28492AE800AE749F /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9399C28492AE800AE749F /* TitleLabel.swift */; };
+		84F9399F28492BA400AE749F /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9399E28492BA400AE749F /* BodyLabel.swift */; };
+		84F939A228492C3000AE749F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939A128492C3000AE749F /* Extensions.swift */; };
+		84F939A428492C3A00AE749F /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939A328492C3A00AE749F /* UserInfoHeader.swift */; };
+		84F939A728492D1700AE749F /* CutomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939A628492D1700AE749F /* CutomContainerView.swift */; };
+		84F939A928492DDE00AE749F /* SecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939A828492DDE00AE749F /* SecondaryTitleLabel.swift */; };
+		84F939AB28492FEF00AE749F /* FollowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939AA28492FEF00AE749F /* FollowerModel.swift */; };
+		84F939AD2849317000AE749F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939AC2849317000AE749F /* File.swift */; };
+		84F939AF2849CF3700AE749F /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F939AE2849CF3700AE749F /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8488CA642844E0FB00D55442 /* KommunicateAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KommunicateAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8488CA672844E0FB00D55442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8488CA692844E0FB00D55442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8488CA6B2844E0FB00D55442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8488CA6B2844E0FB00D55442 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8488CA6E2844E0FB00D55442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8488CA712844E0FB00D55442 /* KommunicateAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KommunicateAssignment.xcdatamodel; sourceTree = "<group>"; };
 		8488CA732844E10000D55442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8488CA762844E10000D55442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8488CA782844E10000D55442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8488CA7E2844E9DC00D55442 /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		8488CA8228450C9D00D55442 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		8488CAAE2847C84800D55442 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8488CAB02848AD3B00D55442 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		84F939932848E98500AE749F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		84F939952848F65900AE749F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		84F9399828492ADB00AE749F /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		84F9399A28492AE100AE749F /* AvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		84F9399C28492AE800AE749F /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		84F9399E28492BA400AE749F /* BodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
+		84F939A128492C3000AE749F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84F939A328492C3A00AE749F /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		84F939A628492D1700AE749F /* CutomContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomContainerView.swift; sourceTree = "<group>"; };
+		84F939A828492DDE00AE749F /* SecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		84F939AA28492FEF00AE749F /* FollowerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerModel.swift; sourceTree = "<group>"; };
+		84F939AC2849317000AE749F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		84F939AE2849CF3700AE749F /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8421CFB92849DF350091784D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8488CAAE2847C84800D55442 /* NetworkManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		8488CA5B2844E0FB00D55442 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +100,57 @@
 		8488CA662844E0FB00D55442 /* KommunicateAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				8488CA672844E0FB00D55442 /* AppDelegate.swift */,
 				8488CA692844E0FB00D55442 /* SceneDelegate.swift */,
-				8488CA6B2844E0FB00D55442 /* ViewController.swift */,
+				8488CA672844E0FB00D55442 /* AppDelegate.swift */,
+				84F939A128492C3000AE749F /* Extensions.swift */,
+				8421CFB92849DF350091784D /* Service */,
+				84F939A528492CE200AE749F /* Model */,
+				84F939A028492C1900AE749F /* View */,
+				84F9399728492ABD00AE749F /* Controllers */,
 				8488CA6D2844E0FB00D55442 /* Main.storyboard */,
 				8488CA732844E10000D55442 /* Assets.xcassets */,
 				8488CA752844E10000D55442 /* LaunchScreen.storyboard */,
 				8488CA782844E10000D55442 /* Info.plist */,
 				8488CA702844E0FB00D55442 /* KommunicateAssignment.xcdatamodeld */,
+				84F939AC2849317000AE749F /* File.swift */,
 			);
 			path = KommunicateAssignment;
+			sourceTree = "<group>";
+		};
+		84F9399728492ABD00AE749F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8488CA7E2844E9DC00D55442 /* AnimationViewController.swift */,
+				84F939952848F65900AE749F /* ProfileViewController.swift */,
+				84F939932848E98500AE749F /* DetailsViewController.swift */,
+				8488CA6B2844E0FB00D55442 /* LoginViewController.swift */,
+				8488CA8228450C9D00D55442 /* DashboardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84F939A028492C1900AE749F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84F939A828492DDE00AE749F /* SecondaryTitleLabel.swift */,
+				84F939A328492C3A00AE749F /* UserInfoHeader.swift */,
+				84F9399828492ADB00AE749F /* FollowerCell.swift */,
+				84F9399A28492AE100AE749F /* AvatarImageView.swift */,
+				84F9399C28492AE800AE749F /* TitleLabel.swift */,
+				84F9399E28492BA400AE749F /* BodyLabel.swift */,
+				84F939A628492D1700AE749F /* CutomContainerView.swift */,
+				84F939AE2849CF3700AE749F /* CustomButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84F939A528492CE200AE749F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8488CAB02848AD3B00D55442 /* UserModel.swift */,
+				84F939AA28492FEF00AE749F /* FollowerModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +224,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8488CAB12848AD3B00D55442 /* UserModel.swift in Sources */,
+				84F939A728492D1700AE749F /* CutomContainerView.swift in Sources */,
 				8488CA722844E0FB00D55442 /* KommunicateAssignment.xcdatamodeld in Sources */,
-				8488CA6C2844E0FB00D55442 /* ViewController.swift in Sources */,
+				84F939962848F65900AE749F /* ProfileViewController.swift in Sources */,
+				84F939942848E98500AE749F /* DetailsViewController.swift in Sources */,
+				84F939AD2849317000AE749F /* File.swift in Sources */,
+				84F9399B28492AE100AE749F /* AvatarImageView.swift in Sources */,
+				8488CA6C2844E0FB00D55442 /* LoginViewController.swift in Sources */,
+				8488CA7F2844E9DC00D55442 /* AnimationViewController.swift in Sources */,
+				8488CAAF2847C84800D55442 /* NetworkManager.swift in Sources */,
+				84F939A428492C3A00AE749F /* UserInfoHeader.swift in Sources */,
+				84F939AF2849CF3700AE749F /* CustomButton.swift in Sources */,
 				8488CA682844E0FB00D55442 /* AppDelegate.swift in Sources */,
+				84F9399F28492BA400AE749F /* BodyLabel.swift in Sources */,
+				84F939A928492DDE00AE749F /* SecondaryTitleLabel.swift in Sources */,
+				84F939A228492C3000AE749F /* Extensions.swift in Sources */,
+				8488CA8328450C9D00D55442 /* DashboardViewController.swift in Sources */,
+				84F9399928492ADB00AE749F /* FollowerCell.swift in Sources */,
+				84F9399D28492AE800AE749F /* TitleLabel.swift in Sources */,
 				8488CA6A2844E0FB00D55442 /* SceneDelegate.swift in Sources */,
+				84F939AB28492FEF00AE749F /* FollowerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
